@@ -7,15 +7,15 @@ namespace CICD_Tests
         [Fact]
         public void Divide_TwoNumbers_ReturnsCorrectQuotient()
         {
-            double result = Calculator.Divide(10, 2);
-            Assert.Equal(5, result);
+            double result = Calculator.Divide(20, 2);
+            Assert.Equal(10, result);
         }
 
         [Fact]
         public void Divide_NegativeNumbers_ReturnsCorrectQuotient()
         {
-            double result = Calculator.Divide(-10, -2);
-            Assert.Equal(5, result);
+            double result = Calculator.Divide(-20, -2);
+            Assert.Equal(10, result);
         }
 
         [Fact]
